@@ -1,0 +1,84 @@
+body{
+    background-color: #232323;    
+    font-family: 'Odibee Sans', cursive;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 ;
+    background-color: rgb(114, 85, 241) ;
+    -webkit-text-stroke: 1px black;
+}
+
+#colorDisplay{
+    text-transform: uppercase;
+    font-size: 58px;
+    text-align: center;
+}
+
+#message{
+    color: #000000;
+    font-size: 24px;
+}
+
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.square{
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    /*background-color: #B1DED5; Linea a revisar */
+    margin: 1.5%;
+    border-radius: 10%;
+    opacity: .6;
+    transition: background-Color .9s;
+}
+
+.square:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+#stripe{
+    background: #FFFFFF;
+    height: 30px;
+    text-align: center;
+}
+
+#botonesNivel{
+    float: right;
+}
+
+button{
+    height: 30px;
+    padding: 0px 30px;
+    outline: none;
+    font-size: 24px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+button:hover{
+    color: #FFFFFF;
+    background-color: rgb(114, 85, 241);
+}
+
+#reset{
+    float: left;
+    text-decoration: none;
+}
+
+.selected{
+    background-color: rgb(114, 85, 241);
+    color: #FFFFFF;
+}
+
+#centrar{
+    margin: 0 25%;
+}
